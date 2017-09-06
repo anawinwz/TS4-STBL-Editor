@@ -317,6 +317,7 @@ namespace TS4_STBL_Editor
                     saveFileDialog1.Title = "Export to XML File";
                     break;
             }
+            saveFileDialog1.FileName = filenameLabel.Text.Replace(".stbl", ".xml");
 
             ArrayList textResourceIDInString = new ArrayList();
             ArrayList textString = new ArrayList();
